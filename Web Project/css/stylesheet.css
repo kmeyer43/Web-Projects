@@ -1,0 +1,20 @@
+h1 {
+    color: red;
+}
+
+.timer {
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.randNum {
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-radius: 5px;
+}
+
+#descText {
+    font-size: 1em;
+    color: blue;
+}
