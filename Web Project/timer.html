@@ -7,7 +7,6 @@
     <link href="css/stylesheet.css" rel="stylesheet">
     <title>My Web Project</title>
 
-    <div id="links">
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -17,24 +16,21 @@
             <li><a href="randNumGen.html">Random Number Generator</a></li>
         </ul>
     </nav>
-    </div>
 
-</head><br>
+</head>
 <body>
 
-    <section class="intro">
-        <p>On this site you will find a culmination of random projects I have decided to attempt.<br>
-        I am building this site as a side project, something to do in my freetime, and something to <br>
-        keep practicing and learning new languages.</p>
-    </section>
+    <section class="timer">
+        <h1>Countdown Timer</h1>
 
-    <section class="ideas">
-        <p>Here is a list of projects you can find on this site:<br>
-        <ul>
-            <li>Timer</li>
-            <li>Random Number Generator</li>
-        </ul></p>
-    </section>
+        <p id="descText">Here is my first attempt at a countdown timer:</p><br>
+
+        <p>How long of a timer would you like to set?</p>
+
+        <input type="text" id="timerInput" placeholder="Enter a number">
+        <button id="startButton" onclick="">Start</button>
+        <p id="timer"></p>
+    </section><br>
 
 </body>
 </html>
