@@ -1,3 +1,7 @@
+html {
+    background-image: url(../images/background.jpeg);
+}
+
 h1 {
     color: red;
 }
@@ -38,4 +42,11 @@ nav > ul > li{
 #descText {
     font-size: 1em;
     color: blue;
+}
+
+footer {
+    font-size: 12px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
