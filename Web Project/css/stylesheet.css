@@ -33,10 +33,30 @@ nav > ul > li{
     border-radius: 5px;
 }
 
+.countdown {
+    font-size: 30px;
+    left: 50px;
+}
+
 .randNum {
     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
     border-style: solid;
     border-radius: 5px;
+}
+
+#randomNum10 {
+    font-size: 30px;
+    color: yellow;
+}
+
+#randomNum100 {
+    font-size: 30px;
+    color: yellow;
+}
+
+#randomNum1000 {
+    font-size: 30px;
+    color: yellow;
 }
 
 #descText {
